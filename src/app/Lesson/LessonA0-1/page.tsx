@@ -718,27 +718,27 @@ export default function Home() {
             <div className="flex flex-col gap-5  border-r-4 w-[800px] border-white">
               <div className="">
                 I have a dream -{" "}
-                <sapn className="blur-[10px] hover:blur-[0px] px-10 transition duration-500">
+                <span className="blur-[10px] hover:blur-[0px] px-10 transition duration-500">
                   У меня есть мечта
-                </sapn>{" "}
+                </span>{" "}
               </div>
               <div className="">
                 I have an aim -{" "}
-                <sapn className="blur-[10px] hover:blur-[0px] px-10 transition duration-500">
+                <span className="blur-[10px] hover:blur-[0px] px-10 transition duration-500">
                   У меня есть цель
-                </sapn>
+                </span>
               </div>
               <div className="">
                 They have a dream -{" "}
-                <sapn className="blur-[10px] hover:blur-[0px] px-10 transition duration-500">
+                <span className="blur-[10px] hover:blur-[0px] px-10 transition duration-500">
                   У них есть мечта
-                </sapn>
+                </span>
               </div>
               <div className="">
                 We have an aim -{" "}
-                <sapn className="blur-[10px] hover:blur-[0px] px-10 transition duration-500">
+                <span className="blur-[10px] hover:blur-[0px] px-10 transition duration-500">
                   У нас есть цель
-                </sapn>{" "}
+                </span>{" "}
               </div>
             </div>
             <div className="flex flex-col gap-5">
