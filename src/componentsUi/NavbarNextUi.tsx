@@ -17,7 +17,7 @@ export default function App() {
   return (
     <Navbar shouldHideOnScroll>
       <NavbarBrand>
-        <div className="max-[640px]:flex  max-[640px]:gap-5 max-[640px]:mt-20 max-[640px]:items-center">
+        <div className="max-[640px]:flex  max-[640px]:gap-5 max-[640px]:mt-10 max-[640px]:items-center">
         <div className="flex">
           <AcmeLogo />  
           <Link className="pe-5" href="/">
