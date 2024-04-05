@@ -18,29 +18,11 @@ export default function App() {
     <Navbar shouldHideOnScroll>
       <NavbarBrand>
         <AcmeLogo />
-        <p className="font-bold text-inherit">Frontend</p>
+        <Link className="pe-5" href="/Lesson">
+          Frontend
+        </Link>
       </NavbarBrand>
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
-        <NavbarItem>
-          <Link
-            className={`  pe-5 ${
-              pathname === "/" ? "text-red-500 font-bold" : ""
-            }`}
-            href="/"
-          >
-            Home
-          </Link>
-        </NavbarItem>
-        <NavbarItem>
-          <Link
-            className={`  pe-5 ${
-              pathname === "/Work" ? "text-red-500 font-bold" : ""
-            }`}
-            href="/Work"
-          >
-            Work
-          </Link>
-        </NavbarItem>
         <NavbarItem>
           <Link
             className={`  pe-5 ps-5 ${
@@ -50,26 +32,6 @@ export default function App() {
           >
             Lesson
           </Link>
-        </NavbarItem>
-        <NavbarItem>
-          <Link
-            className={`  pe-5 ps-5 ${
-              pathname === "/scroll" ? "text-red-500 font-bold" : ""
-            }`}
-            href="/scroll"
-          >
-            Scroll
-          </Link>
-        </NavbarItem>
-      </NavbarContent>
-      <NavbarContent justify="end">
-        <NavbarItem className="hidden lg:flex">
-          <Link href="#">Login</Link>
-        </NavbarItem>
-        <NavbarItem>
-          <Button as={Link} color="primary" href="#" variant="flat">
-            Sign Up
-          </Button>
         </NavbarItem>
       </NavbarContent>
     </Navbar>

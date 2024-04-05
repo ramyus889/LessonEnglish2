@@ -14,7 +14,7 @@ export default function Lesson() {
     <div className="mb-10">
       <div className="mt-10 ms-10 ">
         <div className="text-[40px] mb-10">Lesson-A0</div>
-        <div className="grid grid-cols-10 gap-8 me-10">
+        <div className="grid grid-cols-10 max-[1700px]:grid-cols-8 max-[1400px]:grid-cols-6 max-[1300px]:grid-cols-5 max-[1100px]:grid-cols-4 max-[950px]:grid-cols-2 max-[500px]:grid-cols-1 gap-8 me-10">
           {linksA0.map((item) => (
             <Link
               key={item.text}
@@ -29,7 +29,7 @@ export default function Lesson() {
 
       <div className="mt-10 ms-10 ">
         <div className="text-[40px] mb-10">Lesson-A1</div>
-        <div className="grid grid-cols-10 gap-8 me-10">
+        <div className="grid grid-cols-10 max-[1700px]:grid-cols-8 max-[1400px]:grid-cols-6 max-[1300px]:grid-cols-5 max-[1100px]:grid-cols-4 max-[950px]:grid-cols-2 max-[500px]:grid-cols-1 gap-8 me-10">
           {linksA1.map((item) => (
             <Link
               key={item.text}
