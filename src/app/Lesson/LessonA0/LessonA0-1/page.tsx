@@ -10,10 +10,10 @@ export default function Home() {
   }, []);
   return (
     <div className=" ">
-      <div className="text-[40px] max-[1350px]:text-[35px] max-[1350px]:w-[1000px] max-[1024px]:w-[600px] border-b-2 border-white pb-10 mt-10 ms-10 w-[1300px]">
+      <div className="text-[40px] max-[1350px]:text-[35px] max-[1350px]:w-[1000px] max-[1024px]:w-[600px] max-[500px]:ms-5 border-b-2 border-white pb-10 mt-10 ms-10 w-[1300px]">
         A0 - lesson 1
       </div>
-      <div className="text-[25px] max-[1350px]:text-[18px]  max-[1350px]:w-[1000px] max-[1024px]:w-[600px] mb-32 mt-10 ms-10 flex flex-col gap-10 w-[1300px] font-['Inter']">
+      <div className="text-[25px] max-[1350px]:text-[18px]  max-[1350px]:w-[1000px] max-[1024px]:w-[600px] max-[500px]:ms-5 mb-32 mt-10 ms-10 flex flex-col gap-10 w-[1300px] font-['Inter']">
         <div className="">
           <div
             data-aos="fade-right"
