@@ -18,7 +18,7 @@ export default function App() {
     <Navbar shouldHideOnScroll>
       <NavbarBrand>
         <AcmeLogo />
-        <Link className="pe-5" href="/Lesson">
+        <Link className="pe-5" href="/">
           Frontend
         </Link>
       </NavbarBrand>

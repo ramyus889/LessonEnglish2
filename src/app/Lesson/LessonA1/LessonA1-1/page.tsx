@@ -161,7 +161,7 @@ export default function Home() {
               <div className="">
                 You do it very well -{" "}
                 <span className="blur-[10px] hover:blur-[0px] px-10 transition duration-500">
-                  Ты делаешь это очень хорош
+                  Ты делаешь это очень хорошо
                 </span>
               </div>
               <div className="">
@@ -302,6 +302,12 @@ export default function Home() {
                 we -{" "}
                 <span className="blur-[10px] hover:blur-[0px] px-10 transition duration-500">
                   мы
+                </span>
+              </div>
+              <div className="">
+                they -{" "}
+                <span className="blur-[10px] hover:blur-[0px] px-10 transition duration-500">
+                  они
                 </span>
               </div>
               <div className="">
@@ -788,6 +794,330 @@ export default function Home() {
                 we -{" "}
                 <span className="blur-[10px] hover:blur-[0px] px-10 transition duration-500">
                   мы
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="">
+          <div
+            data-aos="fade-right"
+            className="flex gap-10 border-b-2 border-white  pb-10"
+          >
+            <div className="flex flex-col gap-5  border-r-4 w-[800px] border-white">
+              <div className="">
+                You have a talent -{" "}
+                <span className="blur-[10px] hover:blur-[0px] px-10 transition duration-500">
+                  У тебя есть талант
+                </span>{" "}
+              </div>
+              <div className="">
+                I work in a company -{" "}
+                <span className="blur-[10px] hover:blur-[0px] px-10 transition duration-500">
+                  Я работаю в компании
+                </span>
+              </div>
+              <div className="">
+                They work in a company -{" "}
+                <span className="blur-[10px] hover:blur-[0px] px-10 transition duration-500">
+                  Они работают в компании
+                </span>
+              </div>
+              <div className="">
+                I work in this company -{" "}
+                <span className="blur-[10px] hover:blur-[0px] px-10 transition duration-500">
+                  Я работаю в этой компании
+                </span>{" "}
+              </div>
+            </div>
+            <div className="flex flex-col gap-5">
+              <div className="">
+                I -{" "}
+                <span className="blur-[10px] hover:blur-[0px] px-10 transition duration-500">
+                  Я, У, мне
+                </span>
+              </div>
+              <div className="">
+                have -{" "}
+                <span className="blur-[10px] hover:blur-[0px] px-10 transition duration-500">
+                  меня, иметь
+                </span>
+              </div>
+              <div className="">
+                you -{" "}
+                <span className="blur-[10px] hover:blur-[0px] px-10 transition duration-500">
+                  ты, тебя, вас, вы
+                </span>
+              </div>
+              <div className="">
+                a -{" "}
+                <span className="blur-[10px] hover:blur-[0px] px-10 transition duration-500">
+                  есть
+                </span>
+              </div>
+              <div className="">
+                talent -{" "}
+                <span className="blur-[10px] hover:blur-[0px] px-10 transition duration-500">
+                  талант
+                </span>
+              </div>
+              <div className="">
+                work -{" "}
+                <span className="blur-[10px] hover:blur-[0px] px-10 transition duration-500">
+                  работать
+                </span>
+              </div>
+              <div className="">
+                company -{" "}
+                <span className="blur-[10px] hover:blur-[0px] px-10 transition duration-500">
+                  компания
+                </span>
+              </div>
+              <div className="">
+                they -{" "}
+                <span className="blur-[10px] hover:blur-[0px] px-10 transition duration-500">
+                  они
+                </span>
+              </div>
+              <div className="">
+                you -{" "}
+                <span className="blur-[10px] hover:blur-[0px] px-10 transition duration-500">
+                  они
+                </span>
+              </div>
+              <div className="">
+                in -{" "}
+                <span className="blur-[10px] hover:blur-[0px] px-10 transition duration-500">
+                  в
+                </span>
+              </div>
+              <div className="">
+                this -{" "}
+                <span className="blur-[10px] hover:blur-[0px] px-10 transition duration-500">
+                  этот
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="">
+          <div
+            data-aos="fade-right"
+            className="flex gap-10 border-b-2 border-white  pb-10"
+          >
+            <div className="flex flex-col gap-5  border-r-4 w-[800px] border-white">
+              <div className="">
+                I see a message -{" "}
+                <span className="blur-[10px] hover:blur-[0px] px-10 transition duration-500">
+                  Я вижу сообщение
+                </span>{" "}
+              </div>
+              <div className="">
+                We see a message -{" "}
+                <span className="blur-[10px] hover:blur-[0px] px-10 transition duration-500">
+                  Мы видим сообщение
+                </span>
+              </div>
+              <div className="">
+                I have a job -{" "}
+                <span className="blur-[10px] hover:blur-[0px] px-10 transition duration-500">
+                  У меня есть работа
+                </span>
+              </div>
+              <div className="">
+                They have a job -{" "}
+                <span className="blur-[10px] hover:blur-[0px] px-10 transition duration-500">
+                  У них есть работа
+                </span>{" "}
+              </div>
+            </div>
+            <div className="flex flex-col gap-5">
+              <div className="">
+                I -{" "}
+                <span className="blur-[10px] hover:blur-[0px] px-10 transition duration-500">
+                  Я, У, мне
+                </span>
+              </div>
+              <div className="">
+                see -{" "}
+                <span className="blur-[10px] hover:blur-[0px] px-10 transition duration-500">
+                  видеть
+                </span>
+              </div>
+              <div className="">
+                message -{" "}
+                <span className="blur-[10px] hover:blur-[0px] px-10 transition duration-500">
+                  сообщение
+                </span>
+              </div>
+              <div className="">
+                we -{" "}
+                <span className="blur-[10px] hover:blur-[0px] px-10 transition duration-500">
+                  мы
+                </span>
+              </div>
+              <div className="">
+                have -{" "}
+                <span className="blur-[10px] hover:blur-[0px] px-10 transition duration-500">
+                  иметь
+                </span>
+              </div>
+              <div className="">
+                they -{" "}
+                <span className="blur-[10px] hover:blur-[0px] px-10 transition duration-500">
+                  они
+                </span>
+              </div>
+              <div className="">
+                you -{" "}
+                <span className="blur-[10px] hover:blur-[0px] px-10 transition duration-500">
+                  ты, тебя, вас, вы
+                </span>
+              </div>
+              <div className="">
+                a -{" "}
+                <span className="blur-[10px] hover:blur-[0px] px-10 transition duration-500">
+                  есть
+                </span>
+              </div>
+              <div className="">
+                job -{" "}
+                <span className="blur-[10px] hover:blur-[0px] px-10 transition duration-500">
+                  работа
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="">
+          <div
+            data-aos="fade-right"
+            className="flex gap-10 border-b-2 border-white  pb-10"
+          >
+            <div className="flex flex-col gap-5  border-r-4 w-[800px] border-white">
+              <div className="">
+                I really want it -{" "}
+                <span className="blur-[10px] hover:blur-[0px] px-10 transition duration-500">
+                  Я очень хочу это
+                </span>{" "}
+              </div>
+              <div className="">
+                I really like it -{" "}
+                <span className="blur-[10px] hover:blur-[0px] px-10 transition duration-500">
+                  Мне очень нравится это
+                </span>
+              </div>
+            </div>
+            <div className="flex flex-col gap-5">
+              <div className="">
+                I -{" "}
+                <span className="blur-[10px] hover:blur-[0px] px-10 transition duration-500">
+                  Я, У, мне
+                </span>
+              </div>
+              <div className="">
+                really -{" "}
+                <span className="blur-[10px] hover:blur-[0px] px-10 transition duration-500">
+                  очень, реально
+                </span>
+              </div>
+              <div className="">
+                want -{" "}
+                <span className="blur-[10px] hover:blur-[0px] px-10 transition duration-500">
+                  хотеть
+                </span>
+              </div>
+              <div className="">
+                it -{" "}
+                <span className="blur-[10px] hover:blur-[0px] px-10 transition duration-500">
+                  это
+                </span>
+              </div>
+              <div className="">
+                like -{" "}
+                <span className="blur-[10px] hover:blur-[0px] px-10 transition duration-500">
+                  нравится
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="">
+          <div
+            data-aos="fade-right"
+            className="flex gap-10 border-b-2 border-white  pb-10"
+          >
+            <div className="flex flex-col gap-5  border-r-4 w-[800px] border-white">
+              <div className="">
+                I really like this country -{" "}
+                <span className="blur-[10px] hover:blur-[0px] px-10 transition duration-500">
+                  Мне очень нравится эта страна
+                </span>{" "}
+              </div>
+              <div className="">
+                I really like this city -{" "}
+                <span className="blur-[10px] hover:blur-[0px] px-10 transition duration-500">
+                  Мне очень нравится этот город
+                </span>
+              </div>
+              <div className="">
+                I really like this course-{" "}
+                <span className="blur-[10px] hover:blur-[0px] px-10 transition duration-500">
+                  Мне очень нравится этот курс
+                </span>
+              </div>
+              <div className="">
+                I really like English -{" "}
+                <span className="blur-[10px] hover:blur-[0px] px-10 transition duration-500">
+                  Мне очень нравится английский
+                </span>
+              </div>
+            </div>
+            <div className="flex flex-col gap-5">
+              <div className="">
+                I -{" "}
+                <span className="blur-[10px] hover:blur-[0px] px-10 transition duration-500">
+                  Я, У, мне
+                </span>
+              </div>
+              <div className="">
+                really -{" "}
+                <span className="blur-[10px] hover:blur-[0px] px-10 transition duration-500">
+                  очень, реально
+                </span>
+              </div>
+              <div className="">
+                like -{" "}
+                <span className="blur-[10px] hover:blur-[0px] px-10 transition duration-500">
+                  нравится
+                </span>
+              </div>
+              <div className="">
+                this -{" "}
+                <span className="blur-[10px] hover:blur-[0px] px-10 transition duration-500">
+                  это, этот, эта
+                </span>
+              </div>
+              <div className="">
+                country -{" "}
+                <span className="blur-[10px] hover:blur-[0px] px-10 transition duration-500">
+                  страна
+                </span>
+              </div>
+              <div className="">
+                course -{" "}
+                <span className="blur-[10px] hover:blur-[0px] px-10 transition duration-500">
+                  курс
+                </span>
+              </div>
+              <div className="">
+                english -{" "}
+                <span className="blur-[10px] hover:blur-[0px] px-10 transition duration-500">
+                  английский
                 </span>
               </div>
             </div>
