@@ -13,7 +13,7 @@ export default function Home() {
       <div className="text-[40px] max-[1350px]:text-[35px] border-b-2 border-white pb-10 mt-10 ms-10 max-[850px]:w-[700px] w-[800px]">
         A0 - lesson 2
       </div>
-      <div className="text-[25px] max-[1350px]:text-[20px] mt-10 ms-10 mb-10 flex flex-col gap-10 w-[800px] max-[850px]:w-[700px] font-['Inter']">
+      <div className="text-[25px] max-[1350px]:text-[20px] max-[360px]:text-[18px] mt-10 ms-10 mb-10 flex flex-col gap-10 w-[800px] max-[850px]:w-[700px] font-['Inter']">
         <div className="">
           <div
             data-aos="fade-right"
