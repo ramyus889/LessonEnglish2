@@ -58,7 +58,7 @@ export default function Home() {
                     {item.engText} -{" "}
                   </div>
                   <div
-                    className={`  max-[850px]:px-0 px-10 transition duration-500 ${
+                    className={`  max-[850px]:px-0 px-5 transition duration-500 ${
                       blurRus ? "blur-[0px]" : "blur-[10px] hover:blur-[0px]"
                     }`}
                   >
