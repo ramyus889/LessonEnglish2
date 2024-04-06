@@ -39,7 +39,7 @@ export default function Home() {
       </div>
       <div className="text-[23px] max-[1350px]:text-[20px] max-[430px]:text-[18px] mt-10 ms-10 mb-10 max-[500px]:ms-5 flex flex-col gap-10 w-[900px] max-[850px]:w-[700px] font-['Inter']">
         {rusEngText3.map((item) => (
-          <div key={item.id} className="">
+          <div key={item.engText} className="">
             <div
               data-aos="fade-right"
               className="flex gap-10 border-b-2 border-white  pb-10"
