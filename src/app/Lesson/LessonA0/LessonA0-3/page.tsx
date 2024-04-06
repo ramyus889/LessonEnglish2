@@ -3,9 +3,9 @@ import { useEffect, useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 export default function Home() {
-  const [blurEng, setBlurEng] = useState(false);
-  const [blurRus, setBlurRus] = useState(false);
-  const [blurFull, setBlurFull] = useState(false);
+  const [blurEng, setBlurEng] = useState(true);
+  const [blurRus, setBlurRus] = useState(true);
+  const [blurFull, setBlurFull] = useState(true);
   useEffect(() => {
     AOS.init({
       duration: 700,
