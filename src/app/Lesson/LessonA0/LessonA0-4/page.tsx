@@ -19,12 +19,14 @@ export default function Home() {
         <div className="flex justify-between max-[930px]:justify-center max-[500px]:ms-5 max-[900px]:justify-start max-[640px]:w-[160px]  max-[640px]:flex-col max-[930px]:gap-5  w-[900px] ms-10 mt-5 me-10">
           <Link
             href="/Lesson/LessonA0/LessonA0-3"
+            as={"/Lesson/LessonA0/LessonA0-3"}
             className="px-5 py-2 rounded-xl border-2 border-slate-500"
           >
             ← LessonA0-3
           </Link>
           <Link
             href="/Lesson/LessonA0/LessonA0-5"
+            as={"/Lesson/LessonA0/LessonA0-5"}
             className="px-5 py-2 rounded-xl border-2 border-slate-500"
           >
             LessonA0-5 →
