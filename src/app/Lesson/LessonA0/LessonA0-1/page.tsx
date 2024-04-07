@@ -15,7 +15,7 @@ export default function Home() {
   }, []);
   return (
     <div className=" ">
-      <div className="flex justify-end  max-[900px]:justify-start   w-[900px] ms-10 mt-5 me-10">
+      <div className="flex justify-end  max-[900px]:justify-start max-[500px]:ms-5  w-[900px] ms-10 mt-5 me-10">
         <Link
           href="/Lesson/LessonA0/LessonA0-2"
           className="px-5 py-2 rounded-xl border-2 border-slate-500"
@@ -24,8 +24,8 @@ export default function Home() {
         </Link>
       </div>
 
-      <div className="flex gap-8 items-center place-content-center max-[1350px]:text-[20px] max-[900px]:items-start max-[900px]:text-[18px] max-[900px]:flex-col border-b-2 border-white pb-10 mt-10 ms-10  max-[900px]:w-[700px] w-[900px]">
-        <div className="text-[40px] max-[1350px]:text-[20px]">
+      <div className="flex gap-8 items-center place-content-center max-[1350px]:text-[20px] max-[900px]:items-start max-[900px]:text-[18px] max-[900px]:flex-col border-b-2 border-white pb-10 mt-10 ms-10 max-[500px]:ms-5 max-[900px]:w-[700px] w-[900px]">
+        <div className="text-[40px] max-[500px]:ps-2 max-[1350px]:text-[20px]">
           A0 - lesson 1
         </div>
         <button
@@ -61,15 +61,15 @@ export default function Home() {
                   }`}
                 >
                   <div
-                    className={` transition duration-500 px-5 ${
+                    className={`max-[900px]:px-2 transition duration-500 px-5 ${
                       blurEng ? "blur-[0px]" : "blur-[10px] hover:blur-[0px]"
                     }`}
                   >
                     {item.engText}
                   </div>
-                  <div className="max-[900px]:px-5">-</div>
+                  <div className="max-[900px]:px-2">-</div>
                   <div
-                    className={`   px-5 transition duration-500 ${
+                    className={` max-[900px]:px-2  px-5 transition duration-500 ${
                       blurRus ? "blur-[0px]" : "blur-[10px] hover:blur-[0px]"
                     }`}
                   >
