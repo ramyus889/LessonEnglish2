@@ -33,19 +33,19 @@ export default function Home() {
           onClick={() => setBlurEng(!blurEng)}
           className="px-5 py-3 border-2 border-slate-500 rounded-xl font-['Inter']"
         >
-          Заблюрить Анг.
+          Blur Eng.
         </button>
         <button
           onClick={() => setBlurRus(!blurRus)}
           className="px-5 py-3 border-2 border-slate-500 rounded-xl font-['Inter']"
         >
-          Заблюрить Рус.
+          Blur Rus.
         </button>
         <button
           onClick={() => setBlurFull(!blurFull)}
           className="px-5 py-3 border-2 border-slate-500 rounded-xl font-['Inter']"
         >
-          Заблюрить Все
+          Blur Full
         </button>
       </div>
       <div className="text-[25px] max-[1350px]:text-[20px] max-[360px]:text-[18px] mt-10 ms-10 mb-20 max-[500px]:ms-5 flex flex-col gap-10 w-[900px] max-[900px]:w-[700px] font-['Inter']">

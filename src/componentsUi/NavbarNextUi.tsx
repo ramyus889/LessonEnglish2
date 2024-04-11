@@ -30,11 +30,11 @@ export default function App() {
         <NavbarItem>
           <Link
             className={`  pe-5 ps-5 ${
-              pathname === "/Lesson" ? "text-red-500 font-bold" : ""
+              pathname === "/Lessons" ? "text-red-500 font-bold" : ""
             }`}
-            href="/Lesson"
+            href="/Lessons"
           >
-            Lesson
+            Lessons
           </Link>
         </NavbarItem>
       </NavbarContent>

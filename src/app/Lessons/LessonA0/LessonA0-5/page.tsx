@@ -3,11 +3,12 @@ import { useEffect, useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Link from "next/link";
-import { rusEngText4 } from "./RusEngText4.js";
+import { rusEngText5 } from "./RusEngText5.js";
 export default function Home() {
   const [blurEng, setBlurEng] = useState(true);
   const [blurRus, setBlurRus] = useState(false);
   const [blurFull, setBlurFull] = useState(true);
+
   useEffect(() => {
     AOS.init({
       duration: 700,
@@ -18,47 +19,47 @@ export default function Home() {
       <div className="inline-block">
         <div className="flex justify-between max-[930px]:justify-center max-[500px]:ms-5 max-[900px]:justify-start max-[640px]:w-[160px]  max-[640px]:flex-col max-[930px]:gap-5  w-[900px] ms-10 mt-5 me-10">
           <Link
-            href="/Lesson/LessonA0/LessonA0-3"
-            as={"/Lesson/LessonA0/LessonA0-3"}
+            href="/Lesson/LessonA0/LessonA0-4"
+            as={"/Lesson/LessonA0/LessonA0-4"}
             className="px-5 py-2 rounded-xl border-2 border-slate-500"
           >
-            ← LessonA0-3
+            ← LessonA0-4
           </Link>
           <Link
-            href="/Lesson/LessonA0/LessonA0-5"
-            as={"/Lesson/LessonA0/LessonA0-5"}
+            href="/Lesson/LessonA0/LessonA0-6"
+            as={"/Lesson/LessonA0/LessonA0-6"}
             className="px-5 py-2 rounded-xl border-2 border-slate-500"
           >
-            LessonA0-5 →
+            LessonA0-6 →
           </Link>
         </div>
       </div>
       <div className="flex gap-8 items-center place-content-center  max-[1350px]:text-[20px] max-[500px]:ms-5 max-[900px]:items-start max-[900px]:text-[18px] max-[900px]:flex-col border-b-2 border-white pb-10 mt-8 ms-10  max-[900px]:w-[700px] w-[900px]">
         <div className="text-[40px] max-[500px]:ps-2 max-[1350px]:text-[20px]">
-          A0 - lesson 4
+          A0 - lesson 5
         </div>
         <button
           onClick={() => setBlurEng(!blurEng)}
           className="px-5 py-3 border-2 border-slate-500 rounded-xl font-['Inter']"
         >
-          Заблюрить Анг.
+          Blur Eng.
         </button>
         <button
           onClick={() => setBlurRus(!blurRus)}
           className="px-5 py-3 border-2 border-slate-500 rounded-xl font-['Inter']"
         >
-          Заблюрить Рус.
+          Blur Rus.
         </button>
         <button
           onClick={() => setBlurFull(!blurFull)}
           className="px-5 py-3 border-2 border-slate-500 rounded-xl font-['Inter']"
         >
-          Заблюрить Все
+          Blur Full
         </button>
       </div>
       <div className="flex">
         <div className="text-[23px] max-[1350px]:text-[20px] max-[430px]:text-[18px] mt-10 ms-10 mb-20 max-[500px]:ms-5 flex flex-col gap-10 w-[900px] max-[900px]:w-[700px] font-['Inter']">
-          {rusEngText4.map((item) => (
+          {rusEngText5.map((item) => (
             <div key={item.engText} className="">
               <div
                 data-aos="fade-right"
