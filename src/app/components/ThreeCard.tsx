@@ -35,7 +35,7 @@ export default function Home() {
     },
   ];
   return (
-    <div className="flex place-content-center gap-10 mt-[300px]">
+    <div className="flex place-content-center gap-10 mt-[300px] mb-[200px]">
       <div className=""></div>
       {card.map((card) => (
         <div
