@@ -6,7 +6,7 @@ import Link from "next/link";
 import { rusEngText3 } from "./RusEngText3.js";
 export default function Home() {
   const [blurEng, setBlurEng] = useState(true);
-  const [blurRus, setBlurRus] = useState(true);
+  const [blurRus, setBlurRus] = useState(false);
   const [blurFull, setBlurFull] = useState(true);
   useEffect(() => {
     AOS.init({

@@ -6,7 +6,7 @@ import Link from "next/link";
 import { rusEngText5 } from "./RusEngText5.js";
 export default function Home() {
   const [blurEng, setBlurEng] = useState(true);
-  const [blurRus, setBlurRus] = useState(true);
+  const [blurRus, setBlurRus] = useState(false);
   const [blurFull, setBlurFull] = useState(true);
 
   useEffect(() => {
