@@ -14,24 +14,24 @@ export default function Home() {
   const card = [
     {
       id: 1,
-      title: "Free",
+      title: "Бесплатно",
       price: "$0",
-      blur: "Blur -",
-      category: "Gives access to levels starting from A0 to A1",
+      blur: "Размытие -",
+      category: "Предоставляет доступ к уровням, начиная с A0 до A1.",
     },
     {
       id: 2,
-      title: "Stantard",
+      title: "Стандартный",
       price: "$19",
-      blur: "Blur +",
-      category: "Gives access to levels starting from A0 to B1",
+      blur: "Размытие +",
+      category: "Предоставляет доступ к уровням, начиная с A0 до B1.",
     },
     {
       id: 3,
-      title: "Enterprise",
+      title: "Премиум",
       price: "$29",
-      blur: "Blur +",
-      category: "Gives access to levels starting from A0 to C1",
+      blur: "Размытие +",
+      category: "Предоставляет доступ к уровням, начиная с A0 до C1.",
     },
   ];
   return (
@@ -50,7 +50,7 @@ export default function Home() {
                     {card.title}
                   </h2>
                   <p className="mt-2 text-sm text-gray-500">
-                    Suitable to grow steadily.
+                    Подходит для стабильного роста.
                   </p>
                 </div>
                 <div className="text-[20px] *:py-2 my-5">
@@ -62,7 +62,7 @@ export default function Home() {
                     <span className="text-5xl font-light tracking-tight ">
                       {card.price}
                     </span>
-                    <span className="text-base font-medium "> /mo </span>
+                    <span className="text-base font-medium "> /месяц </span>
                   </p>
                 </div>
               </div>
@@ -73,7 +73,7 @@ export default function Home() {
                 className="flex items-center justify-center w-full px-6 py-2.5 text-center text-white duration-200 bg-black border-2 border-black rounded-full nline-flex hover:bg-transparent hover:border-black hover:text-white focus:outline-none focus-visible:outline-black text-sm focus-visible:ring-black"
                 href="#"
               >
-                Get started
+                Начать
               </Link>
             </div>
           </div>

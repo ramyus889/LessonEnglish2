@@ -29,7 +29,7 @@ export default function BigCard() {
                   href="/Lesson"
                   className="text-[24px] underline font-bold"
                 >
-                  Learn more
+                  Узнать больше
                 </Link>
               </div>
               <div data-aos="fade-left" className="">
