@@ -19,8 +19,8 @@ export default function Head() {
       >
         На каждом уровне будет 5000 слов <br /> A0, A1, A2, B1, B2, C1
       </div>
-      <div className="flex place-content-center gap-20 max-[1100px]:gap-10 my-20 px-5 text-[24px] max-[1260px]:text-[20px] max-[940px]:text-[18px]">
-        <div className="flex max-[890px]:flex-col gap-5">
+      <div className="flex place-content-center  my-20 px-5 text-[24px] max-[1260px]:text-[20px] max-[940px]:text-[18px]">
+        <div className="flex max-[890px]:flex-col gap-20 max-[1100px]:gap-10">
           <div data-aos="fade-right" className="flex flex-col gap-2">
             <svg
               fill="none"

@@ -15,7 +15,7 @@ export default function Head() {
   return (
     <div className="">
       <div data-aos="fade-up" className="">
-        <div className="text-center mt-20 font-bold text-[100px] max-[1100px]:text-[80px] max-[760px]:text-[60px] max-[600px]:text-[50px] max-[500px]:text-[30px] max-[760px]:leading-[60px] max-[600px]:leading-[50px] max-[500px]:leading-[30px] leading-[100px]">
+        <div className="text-center mt-40 font-bold text-[80px] max-[1030px]:text-[60px] max-[790px]:text-[40px]   max-[500px]:text-[30px] max-[1030px]:leading-[60px] max-[600px]:leading-[50px] max-[500px]:leading-[30px] leading-[90px]">
           Уроки английского языка <br />
           бесплатные и премиум
         </div>
