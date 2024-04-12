@@ -8,17 +8,17 @@ export const BigCardData = [
     dataImage: blurImage,
     dataImage2: blurImage2,
     dataImage3: blurImage3,
-    title: "Build",
-    cardTitle1: "Easy developer experience",
-    cardTitle2: "Language of choice",
-    cardTitle3: "Engineering best practices built-in",
-    text: "Have you met anyone who said they loved developing in Airflow? That’s why we designed an easy developer experience that you’ll enjoy.",
+    title: "Построение",
+    cardTitle1: "Простой опыт работы",
+    cardTitle2: "Язык по выбору",
+    cardTitle3: "Инженерные практики",
+    text: "Вы встречали кого-нибудь, кто говорил, что им нравится разрабатывать в Airflow? Вот почему мы разработали простой интерфейс для разработчиков, который вам понравится.",
     cardText1:
-      "Start developing locally with a single command or launch a dev environment in your cloud using Terraform.",
+      "Начните разработку локально с помощью одной команды или запустите среду разработки в своем облаке с помощью Terraform.",
     cardText2:
-      "Write code in Python, SQL, or R in the same data pipeline for ultimate flexibility.",
+      "Пишите код на Python, SQL или R в одном конвейере обработки данных для максимальной гибкости.",
     cardText3:
-      "Each step in your pipeline is a standalone file containing modular code that’s reusable and testable with data validations. No more DAGs with spaghetti code.",
+      "Каждый шаг в вашем конвейере представляет собой отдельный файл, содержащий модульный код, который можно использовать повторно ",
   },
   {
     id: 2,
@@ -26,17 +26,17 @@ export const BigCardData = [
     dataImage: blurImage,
     dataImage2: blurImage2,
     dataImage3: blurImage3,
-    title: "Preview",
-    cardTitle1: "Interactive code",
-    cardTitle2: "Data is a first-class citizen",
-    cardTitle3: "Collaborate on cloud",
-    text: "Are you wasting time trying to test your DAGs in production? Get instant feedback every time you run code in development.",
+    title: "просмотр",
+    cardTitle1: "Интерактивный код",
+    cardTitle2: "Дейта - первоклассный гражданин",
+    cardTitle3: "Совместная работа в облаке",
+    text: "Вы тратите время, пытаясь протестировать свои базы данных в production? Получайте мгновенную обратную связь каждый раз, когда запускаете код в разработке.",
     cardText1:
-      "Immediately see results from your code’s output with an interactive notebook UI.",
+      "С помощью интерактивного пользовательского интерфейса notebook вы сразу увидите результаты вывода вашего кода.",
     cardText2:
-      "Each block of code in your pipeline produces data that can be versioned, partitioned, and catalogued for future use.",
+      "Каждый блок кода в вашем конвейере создает данные, которые можно версифицировать, разбивать на разделы и каталогизировать для дальнейшего использования.",
     cardText3:
-      "Develop collaboratively on cloud resources, version control with Git, and test pipelines without waiting for an available sharedstaging environment.",
+      "Совместная разработка на облачных ресурсах, контроль версий с помощью Git и конвейеры тестирования, не дожидаясь доступной среды sharedstaging.",
   },
   {
     id: 3,
@@ -44,16 +44,16 @@ export const BigCardData = [
     dataImage: blurImage,
     dataImage2: blurImage2,
     dataImage3: blurImage3,
-    title: "Launch",
-    cardTitle1: "Fast deploy",
-    cardTitle2: "Scaling made simple",
-    cardTitle3: "Fully-featured observability",
-    text: "Don’t have a large team dedicated to Airflow? Mage makes it easy for a single developer to scale up and manage thousands of pipelines.",
+    title: "Запуск",
+    cardTitle1: "Быстрое развертывание",
+    cardTitle2: "Упрощение масштабирования",
+    cardTitle3: "наблюдаемость",
+    text: "У вас нет большой команды, занимающейся Airflow? Mage позволяет одному разработчику легко масштабировать тысячи конвейеров и управлять ими.",
     cardText1:
-      "Deploy Mage to AWS, GCP, Azure, or DigitalOcean with only 2 commands using maintained Terraform templates.",
+      "Разверните Mage в AWS, GCP, Azure или DigitalOcean всего двумя командами, используя поддерживаемые шаблоны Terraform.",
     cardText2:
-      "Transform very large datasets directly in your data warehouse or through a native integration with Spark.",
+      "Преобразуйте очень большие наборы данных непосредственно в вашем хранилище данных или с помощью встроенной интеграции со Spark.",
     cardText3:
-      "Operationalize your pipelines with built-in monitoring, alerting, and observability through an intuitive UI.",
+      "Вводите в эксплуатацию свои конвейеры с помощью встроенного мониторинга, оповещения и возможности наблюдения с помощью интуитивно понятного пользовательского интерфейса.",
   },
 ];

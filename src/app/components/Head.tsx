@@ -16,10 +16,11 @@ export default function Head() {
     <div className="">
       <div data-aos="fade-up" className="">
         <div className="text-center mt-20 font-bold text-[100px] max-[1100px]:text-[80px] max-[760px]:text-[60px] max-[600px]:text-[50px] max-[500px]:text-[30px] max-[760px]:leading-[60px] max-[600px]:leading-[50px] max-[500px]:leading-[30px] leading-[100px]">
-          English lessons <br /> free and premium
+          Уроки английского языка <br />
+          бесплатные и премиум
         </div>
         <div className="text-center text-[32px] max-[1100px]:text-[24px] max-[500px]:text-[20px] mt-5 bg-gradient-to-r from-[#3c7093]  to-[#fb1d35] bg-clip-text text-transparent">
-          Learn English from A0 to C1{" "}
+          Изучайте английский язык от A0 до C1{" "}
         </div>
       </div>
       <div className="flex gap-5 my-20 place-content-center">
@@ -34,7 +35,7 @@ export default function Head() {
             <div className="absolute group-hover:-top-1 group-hover:-right-2 z-10 w-12 h-12 rounded-full group-hover:scale-150  duration-700 right-20 -top-6 bg-orange-500"></div>
             <div className="absolute group-hover:-top-1 group-hover:-right-2 z-10 w-8 h-8   rounded-full group-hover:scale-150  duration-700 right-32 top-6 bg-pink-500"></div>
             <div className="absolute group-hover:-top-1 group-hover:-right-2 z-10 w-4 h-4   rounded-full group-hover:scale-150  duration-700 right-2 top-12 bg-red-600"></div>
-            <p className="z-10 absolute bottom-2 left-2">Get started</p>
+            <p className="z-10 absolute bottom-2 left-2">Начало работы</p>
           </Link>
           <Link
             data-aos="fade-left"
@@ -45,7 +46,7 @@ export default function Head() {
             <div className="absolute group-hover:-top-1 group-hover:-right-2 z-10 w-12 h-12 rounded-full group-hover:scale-150  duration-700 right-20 -top-6 bg-orange-500"></div>
             <div className="absolute group-hover:-top-1 group-hover:-right-2 z-10 w-8 h-8   rounded-full group-hover:scale-150  duration-700 right-32 top-6 bg-pink-500"></div>
             <div className="absolute group-hover:-top-1 group-hover:-right-2 z-10 w-4 h-4   rounded-full group-hover:scale-150  duration-700 right-2 top-12 bg-red-600"></div>
-            <p className="z-10 absolute bottom-2 left-2">See more</p>
+            <p className="z-10 absolute bottom-2 left-2">Показать еще</p>
           </Link>
         </div>
       </div>

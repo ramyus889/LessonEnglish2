@@ -17,7 +17,7 @@ export default function Head() {
         data-aos="fade-up"
         className="text-center text-[48px] max-[600px]:text-[30px] px-5 font-bold mt-[200px]"
       >
-        There will be 5000 words in each level, <br /> A0, A1, A2, B1, B2, C1
+        На каждом уровне будет 5000 слов <br /> A0, A1, A2, B1, B2, C1
       </div>
       <div className="flex place-content-center gap-20 max-[1100px]:gap-10 my-20 px-5 text-[24px] max-[1260px]:text-[20px] max-[940px]:text-[18px]">
         <div className="flex max-[890px]:flex-col gap-5">
@@ -37,8 +37,8 @@ export default function Head() {
               ></path>
             </svg>
             <div className="">
-              Effortlessly integrate and <br /> synchronize data from 3rd <br />{" "}
-              party sources.
+              Простая интеграция и <br /> синхронизация данных из <br />{" "}
+              сторонних источников .
             </div>
           </div>
 
@@ -58,8 +58,8 @@ export default function Head() {
               ></path>
             </svg>
             <div className="">
-              Build real-time and batch <br /> pipelines to transform data{" "}
-              <br /> using Python, SQL, and R.
+              Создавайте конвейеры для <br /> преобразования данных <br />в
+              режиме реального времени
             </div>
           </div>
 
@@ -68,7 +68,7 @@ export default function Head() {
               fill="none"
               height="168.8953488372093"
               viewBox="0 0 344 166"
-              width="350"
+              width="340"
               className="max-[1260px]:w-[300px] max-[1000px]:w-[250px] "
             >
               <path
@@ -79,9 +79,8 @@ export default function Head() {
               ></path>
             </svg>
             <div className="">
-              Run, monitor, and orchestrate <br /> thousands of pipelines
-              without <br />
-              losing sleep.
+              Запускайте, контролируйте <br /> и организуйте тысячи <br />{" "}
+              конвейеров, не теряя сон.
             </div>
           </div>
         </div>
