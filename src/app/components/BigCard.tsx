@@ -15,7 +15,7 @@ export default function BigCard() {
   return (
     <div className="">
       {BigCardData.map((data) => (
-        <div key={data.id} className="flex flex-col gap-5">
+        <div key={data.id} className="flex flex-col gap-5 ">
           <div className="flex place-content-center items-center gap-10 mt-[200px]">
             <div className="flex max-[890px]:flex-col max-[890px]:items-start items-center  gap-5">
               <div data-aos="fade-right" className="flex flex-col px-5 gap-10">
