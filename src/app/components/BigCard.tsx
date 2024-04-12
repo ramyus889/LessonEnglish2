@@ -26,7 +26,7 @@ export default function BigCard() {
                   {data.text}
                 </div>
                 <Link
-                  href="/Lesson"
+                  href="/Lessons"
                   className="text-[24px] underline font-bold"
                 >
                   Узнать больше
