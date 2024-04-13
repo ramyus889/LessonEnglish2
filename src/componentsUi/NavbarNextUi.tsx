@@ -15,7 +15,7 @@ import { AcmeLogo } from "./AcmeLogo.jsx";
 export default function App() {
   const pathname = usePathname();
   return (
-    <Navbar shouldHideOnScroll className="fixed ">
+    <Navbar shouldHideOnScroll className="fixed">
       <NavbarBrand>
         <div className="max-[640px]:flex  max-[640px]:gap-5 max-[640px]:mt-10 max-[640px]:items-center">
           <div className="flex">

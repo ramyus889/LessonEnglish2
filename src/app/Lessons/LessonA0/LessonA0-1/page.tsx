@@ -15,10 +15,10 @@ export default function Home() {
   }, []);
   return (
     <div className=" ">
-      <div className="flex justify-end  max-[900px]:justify-start max-[500px]:ms-5  w-[900px] ms-10 mt-5 me-10">
+      <div className="flex justify-end  max-[900px]:justify-start max-[500px]:ms-5  w-[900px] ms-10 mt-20 me-10">
         <Link
-          href="/Lesson/LessonA0/LessonA0-2"
-          as={"/Lesson/LessonA0/LessonA0-2"}
+          href="/Lessons/LessonA0/LessonA0-2"
+          as={"/Lessons/LessonA0/LessonA0-2"}
           className="px-5 py-2 rounded-xl border-2 border-slate-500"
         >
           LessonA0-2 →
