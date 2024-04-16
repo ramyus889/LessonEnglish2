@@ -102,7 +102,7 @@ export const rusEngText5 = [
   {
     id: "228",
     engText: "This ticket costs three hundred dollars",
-    rusText: "Этот билет стоит три доллара",
+    rusText: "Этот билет стоит тристо доллара",
   },
   {
     id: "9259",
