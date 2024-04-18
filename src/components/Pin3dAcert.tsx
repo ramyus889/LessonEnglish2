@@ -21,7 +21,7 @@ export default function AnimatedPinDemo() {
             src={imgFront}
             alt="pin"
             className=" pb-5 px-5"
-            styles={{ width: "auto", height: "auto" }}
+            style={{ width: "auto", height: "auto" }}
           />
         </div>
       </PinContainer>
