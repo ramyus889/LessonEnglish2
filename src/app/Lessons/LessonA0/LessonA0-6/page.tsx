@@ -34,7 +34,7 @@ export default function Home() {
         </div>
       </div>
       <div className="flex gap-8  place-content-center xl:text-[20px] items-start lg:items-center lg:text-[18px] flex-col lg:flex-row border-b-2 border-white pb-10 mt-10 sm:ms-10 ms-5 w-[700px] lg:w-[900px]">
-        <div className="text-[20px] sm:ps-2 lg:text-[40px]">A0 - lesson 3</div>
+        <div className="text-[20px] sm:ps-2 lg:text-[40px]">A0 - lesson 6</div>
         <button
           onClick={() => setBlurEng(!blurEng)}
           className="px-5 py-3 border-2 border-slate-500 rounded-xl font-['Inter']"
