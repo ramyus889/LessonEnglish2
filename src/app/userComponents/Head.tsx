@@ -4,12 +4,8 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Image from "next/image";
 import logo from "../../../public/Screenshot_3.png";
-import logo2 from "../../../public/Screenshot_6.png";
 import Link from "next/link";
-import { Vortex } from "../../components/ui/vortex";
-import { useTheme } from "next-themes";
 export default function Head() {
-  const { theme, setTheme } = useTheme();
   useEffect(() => {
     AOS.init({
       duration: 700,
@@ -60,7 +56,7 @@ export default function Head() {
         className="flex place-content-center my-20"
       >
         <Image
-          src={theme === "dark" ? logo : logo2}
+          src={logo}
           alt="Logo"
           className="px-10"
           width={1200}

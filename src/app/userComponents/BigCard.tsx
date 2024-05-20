@@ -5,10 +5,8 @@ import "aos/dist/aos.css";
 import Link from "next/link";
 import Image from "next/image";
 import { BigCardData } from "./exportText.js";
-import { useTheme } from "next-themes";
 
 export default function BigCard() {
-  const { theme, setTheme } = useTheme();
   useEffect(() => {
     AOS.init({
       duration: 700,
@@ -36,7 +34,7 @@ export default function BigCard() {
               </div>
               <div data-aos="fade-left" className="">
                 <Image
-                  src={theme === "dark" ? data.image : data.imageLight}
+                  src={data.image}
                   alt="airflow"
                   width={800}
                   height={700}
