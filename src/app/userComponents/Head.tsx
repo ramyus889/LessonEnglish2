@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Image from "next/image";
-import logo from "../../../public/Screenshot_3.png";
+import logo from "/public/Screenshot_3.png";
 import Link from "next/link";
 export default function Head() {
   useEffect(() => {
@@ -53,12 +53,12 @@ export default function Head() {
       <div
         data-aos="fade-up"
         data-aos-delay="500"
-        className="flex place-content-center my-20"
+        className="flex place-content-center my-20 px-1"
       >
         <Image
           src={logo}
           alt="Logo"
-          className="px-10"
+          className=" rounded-[25px]"
           width={1200}
           height={1200}
         />

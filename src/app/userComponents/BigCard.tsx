@@ -35,6 +35,7 @@ export default function BigCard() {
               <div data-aos="fade-left" className="">
                 <Image
                   src={data.image}
+                  className="rounded-[25px]"
                   alt="airflow"
                   width={800}
                   height={700}
