@@ -1,18 +1,17 @@
 "use client";
 
-import Head from "./components/Head";
-import Card from "./components/Card";
-import BigCard from "./components/BigCard";
-import ThreeCard from "./components/ThreeCard";
-import Footer from "./components/Footer";
-import Pin3dAcert from "./../components/Pin3dAcert";
+import Head from "./userComponents/Head";
+import Card from "./userComponents/Card";
+import BigCard from "./userComponents/BigCard";
+import ThreeCard from "./userComponents/ThreeCard";
+import Footer from "./userComponents/Footer";
 
 export default function Home() {
   return (
     <div className="">
       <Head />
       <Card />
-      <Pin3dAcert />
+
       <BigCard />
       <ThreeCard />
       <Footer />

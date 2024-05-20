@@ -14,6 +14,7 @@ import {
   Button,
 } from "@nextui-org/react";
 import { AcmeLogo } from "./AcmeLogo.jsx";
+import ThemeSwitcher from "@/app/userComponents/ThemeSwitcher";
 
 export default function App() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
@@ -48,7 +49,7 @@ export default function App() {
       <NavbarContent justify="end">
         <NavbarItem>
           <Link
-            className={`  pe-5 ps-5 ${
+            className={`  pe-5 ps-5 max-[500px]:hidden ${
               pathname === "/" ? "text-red-500 font-bold" : ""
             }`}
             href="/"
@@ -65,6 +66,9 @@ export default function App() {
           >
             Lessons
           </Link>
+        </NavbarItem>
+        <NavbarItem>
+          <ThemeSwitcher />
         </NavbarItem>
       </NavbarContent>
       <NavbarMenu>

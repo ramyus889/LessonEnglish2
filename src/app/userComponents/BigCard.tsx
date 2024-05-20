@@ -15,7 +15,7 @@ export default function BigCard() {
   return (
     <div className="">
       {BigCardData.map((data) => (
-        <div key={data.id} className="flex flex-col gap-5 ">
+        <div key={data.id} className="flex flex-col gap-5 px-5">
           <div className="flex place-content-center items-center gap-10 mt-[200px]">
             <div className="flex max-[890px]:flex-col max-[890px]:items-start items-center  gap-5">
               <div data-aos="fade-right" className="flex flex-col px-5 gap-10">
@@ -48,7 +48,7 @@ export default function BigCard() {
               <div className="flex max-[1150px]:flex-col gap-10">
                 <div
                   data-aos="fade-right"
-                  className="flex flex-col gap-5 bg-[#1a1c21] p-5 rounded-xl"
+                  className="flex flex-col gap-5 dark:bg-[#1a1c21] bg-[#e3e3e5] shadow-md p-5 rounded-xl"
                 >
                   <Image
                     src={data.dataImage}
@@ -56,16 +56,16 @@ export default function BigCard() {
                     width={50}
                     height={50}
                   />
-                  <div className="text-[32px] max-[1770px]:text-[26px] max-[1150px]:text-[20px] text-wrap font-bold">
+                  <div className="text-[32px] max-[1770px]:text-[26px] max-[1150px]:text-[20px]  text-wrap font-bold">
                     {data.cardTitle1}
                   </div>
-                  <div className="text-[24px] max-[1770px]:text-[20px] max-[1150px]:text-[18px] text-wrap text-[#b4b8c0] max-[1750px]:w-[400px] max-[1480px]:w-[300px] w-[500px]">
+                  <div className="text-[24px] max-[1770px]:text-[20px] max-[1150px]:text-[18px] text-wrap dark:text-[#b4b8c0] max-[1750px]:w-[400px] max-[1480px]:w-[300px] w-[500px]">
                     {data.cardText1}
                   </div>
                 </div>
                 <div
                   data-aos="fade-up"
-                  className="flex flex-col gap-5 bg-[#1a1c21] p-5 rounded-xl"
+                  className="flex flex-col gap-5 dark:bg-[#1a1c21] bg-[#e3e3e5] shadow-md p-5 rounded-xl"
                 >
                   <Image
                     src={data.dataImage2}
@@ -73,16 +73,16 @@ export default function BigCard() {
                     width={50}
                     height={50}
                   />
-                  <div className="text-[32px] max-[1770px]:text-[26px] max-[1150px]:text-[20px] text-wrap font-bold">
+                  <div className="text-[32px] max-[1770px]:text-[26px] max-[1150px]:text-[20px]  text-wrap font-bold">
                     {data.cardTitle2}
                   </div>
-                  <div className="text-[24px] max-[1770px]:text-[20px] max-[1150px]:text-[18px] text-wrap text-[#b4b8c0] max-[1750px]:w-[400px] max-[1480px]:w-[300px] w-[500px]">
+                  <div className="text-[24px] max-[1770px]:text-[20px] max-[1150px]:text-[18px] text-wrap dark:text-[#b4b8c0] max-[1750px]:w-[400px] max-[1480px]:w-[300px] w-[500px]">
                     {data.cardText2}
                   </div>
                 </div>
                 <div
                   data-aos="fade-left"
-                  className="flex flex-col gap-5 bg-[#1a1c21] p-5 rounded-xl"
+                  className="flex flex-col gap-5 dark:bg-[#1a1c21] bg-[#e3e3e5] shadow-md p-5 rounded-xl"
                 >
                   <Image
                     src={data.dataImage3}
@@ -90,10 +90,10 @@ export default function BigCard() {
                     width={50}
                     height={50}
                   />
-                  <div className="text-[32px] max-[1770px]:text-[26px] max-[1150px]:text-[20px] font-bold text-wrap">
+                  <div className="text-[32px] max-[1770px]:text-[26px] max-[1150px]:text-[20px]  font-bold text-wrap">
                     {data.cardTitle3}
                   </div>
-                  <div className="text-[24px] max-[1770px]:text-[20px] max-[1150px]:text-[18px] text-[#b4b8c0] text-wrap max-[1750px]:w-[400px] max-[1480px]:w-[300px] w-[500px]">
+                  <div className="text-[24px] max-[1770px]:text-[20px] max-[1150px]:text-[18px] dark:text-[#b4b8c0] text-wrap max-[1750px]:w-[400px] max-[1480px]:w-[300px] w-[500px]">
                     {data.cardText3}
                   </div>
                 </div>

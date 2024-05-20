@@ -8,7 +8,6 @@ export default function Home() {
   const [blurEng, setBlurEng] = useState(true);
   const [blurRus, setBlurRus] = useState(false);
   const [blurFull, setBlurFull] = useState(true);
-
   useEffect(() => {
     AOS.init({
       duration: 700,
@@ -17,7 +16,7 @@ export default function Home() {
   return (
     <div className="">
       <div className="inline-block">
-        <div className="flex justify-between max-[930px]:justify-center max-[500px]:ms-5 max-[900px]:justify-start max-[640px]:w-[160px]  max-[640px]:flex-col max-[930px]:gap-5  w-[900px] ms-10 mt-20 me-10">
+        <div className="flex xl:justify-between md:justify-center  ms-5 justify-start w-[160px] sm:flex-row flex-col gap-5 lg:gap-0 sm:w-[900px] sm:ms-10 mt-20 me-10">
           <Link
             href="/Lessons/LessonA0/LessonA0-5"
             as={"/Lessons/LessonA0/LessonA0-5"}
@@ -34,10 +33,8 @@ export default function Home() {
           </Link>
         </div>
       </div>
-      <div className="flex gap-8 items-center place-content-center  max-[1350px]:text-[20px] max-[500px]:ms-5 max-[900px]:items-start max-[900px]:text-[18px] max-[900px]:flex-col border-b-2 border-white pb-10 mt-8 ms-10  max-[900px]:w-[700px] w-[900px]">
-        <div className="text-[40px] max-[500px]:ps-2 max-[1350px]:text-[20px]">
-          A0 - lesson 6
-        </div>
+      <div className="flex gap-8  place-content-center xl:text-[20px] items-start lg:items-center lg:text-[18px] flex-col lg:flex-row border-b-2 border-white pb-10 mt-10 sm:ms-10 ms-5 w-[700px] lg:w-[900px]">
+        <div className="text-[20px] sm:ps-2 lg:text-[40px]">A0 - lesson 3</div>
         <button
           onClick={() => setBlurEng(!blurEng)}
           className="px-5 py-3 border-2 border-slate-500 rounded-xl font-['Inter']"
@@ -57,41 +54,39 @@ export default function Home() {
           Blur Full
         </button>
       </div>
-      <div className="flex">
-        <div className="text-[23px] max-[1350px]:text-[20px] max-[430px]:text-[18px] mt-10 ms-10 mb-20 max-[500px]:ms-5 flex flex-col gap-10 w-[900px] max-[900px]:w-[700px] font-['Inter']">
-          {rusEngText6.map((item) => (
-            <div key={item.engText} className="">
-              <div
-                data-aos="fade-right"
-                className="flex gap-10 border-b-2 border-white  pb-10"
-              >
-                <div className="flex flex-col gap-5  border-r-4 w-[1000px] border-white">
+      <div className="xl:text-[25px] lg:text-[20px]  mt-10 sm:ms-10 mb-20 ms-5 flex flex-col gap-10 lg:w-[900px] w-[700px] font-['Inter']">
+        {rusEngText6.map((item) => (
+          <div key={item.engText} className="">
+            <div
+              data-aos="fade-right"
+              className="flex gap-10 border-b-2 dark:border-white border-black  pb-10"
+            >
+              <div className="flex flex-col gap-5  border-r-4 w-[1000px] dark:border-white border-black">
+                <div
+                  className={`flex-col flex sm:flex-row transition duration-500 ${
+                    blurFull ? "blur-[0px]" : "blur-[10px] hover:blur-[0px]"
+                  }`}
+                >
                   <div
-                    className={`max-[900px]:flex max-[900px]:flex-col flex gap-3 transition duration-500 ${
-                      blurFull ? "blur-[0px]" : "blur-[10px] hover:blur-[0px]"
+                    className={`px-2 transition duration-500 lg:px-5 ${
+                      blurEng ? "blur-[0px]" : "blur-[10px] hover:blur-[0px]"
                     }`}
                   >
-                    <div
-                      className={`max-[900px]:px-2 transition duration-500 px-5 ${
-                        blurEng ? "blur-[0px]" : "blur-[10px] hover:blur-[0px]"
-                      }`}
-                    >
-                      {item.engText}
-                    </div>
-                    <div className="max-[900px]:px-2">-</div>
-                    <div
-                      className={`max-[900px]:px-2 px-5 transition duration-500 ${
-                        blurRus ? "blur-[0px]" : "blur-[10px] hover:blur-[0px]"
-                      }`}
-                    >
-                      {item.rusText}
-                    </div>
+                    {item.engText}
+                  </div>
+                  <div className="lg:px-0 px-2">-</div>
+                  <div
+                    className={` px-2 transition duration-500 lg:px-5 ${
+                      blurRus ? "blur-[0px]" : "blur-[10px] hover:blur-[0px]"
+                    }`}
+                  >
+                    {item.rusText}
                   </div>
                 </div>
               </div>
             </div>
-          ))}
-        </div>
+          </div>
+        ))}
       </div>
     </div>
   );

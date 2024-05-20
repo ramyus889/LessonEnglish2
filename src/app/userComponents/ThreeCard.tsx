@@ -41,7 +41,7 @@ export default function Home() {
           <div
             data-aos="fade-up"
             key={card.id}
-            className="flex flex-col bg-[#1a1c21] rounded-3xl"
+            className="flex flex-col dark:bg-[#1a1c21] bg-[#e3e3e5] shadow-md rounded-3xl"
           >
             <div className="px-6 py-8 sm:p-10 sm:pb-6">
               <div className="grid items-center justify-center w-full grid-cols-1 text-left">
