@@ -1,10 +1,14 @@
 import blurImage from "../../../public/Screenshot_4.png";
+import blurImageLight from "../../../public/Screenshot_7.png";
 import blurImage2 from "../../../public/Screenshot_3.png";
+import blurImageLight2 from "../../../public/Screenshot_6.png";
 import blurImage3 from "../../../public/Screenshot_3.png";
+import blurImageLight3 from "../../../public/Screenshot_7.png";
 export const BigCardData = [
   {
     id: 1,
     image: blurImage,
+    imageLight: blurImageLight,
     dataImage: blurImage,
     dataImage2: blurImage2,
     dataImage3: blurImage3,
@@ -23,6 +27,7 @@ export const BigCardData = [
   {
     id: 2,
     image: blurImage2,
+    imageLight: blurImageLight2,
     dataImage: blurImage,
     dataImage2: blurImage2,
     dataImage3: blurImage3,
@@ -41,6 +46,7 @@ export const BigCardData = [
   {
     id: 3,
     image: blurImage3,
+    imageLight: blurImageLight3,
     dataImage: blurImage,
     dataImage2: blurImage2,
     dataImage3: blurImage3,
