@@ -32,11 +32,11 @@ export default function App() {
   ];
 
   return (
-    <Navbar onMenuOpenChange={setIsMenuOpen} className="fixed">
+    <Navbar onMenuOpenChange={setIsMenuOpen} maxWidth="full" className="fixed">
       <NavbarContent>
         <NavbarMenuToggle
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
-          className="sm:hidden"
+          className="min-[500px]:hidden"
         />
         <NavbarBrand>
           <AcmeLogo />
@@ -49,8 +49,8 @@ export default function App() {
       <NavbarContent justify="end">
         <NavbarItem>
           <Link
-            className={`  pe-5 ps-5 max-[500px]:hidden ${
-              pathname === "/" ? "text-red-500 font-bold" : ""
+            className={`pe-5 ps-5 max-[500px]:hidden ${
+              pathname === "/" ? "font-bold text-red-500" : ""
             }`}
             href="/"
           >
@@ -59,8 +59,8 @@ export default function App() {
         </NavbarItem>
         <NavbarItem>
           <Link
-            className={`  pe-5 ps-5 max-[500px]:hidden ${
-              pathname === "/Lessons" ? "text-red-500 font-bold" : ""
+            className={`pe-5 ps-5 max-[500px]:hidden ${
+              pathname === "/Lessons" ? "font-bold text-red-500" : ""
             }`}
             href="/Lessons"
           >
@@ -76,7 +76,7 @@ export default function App() {
           <NavbarMenuItem key={`${item}-${index}`}>
             <Link
               className={`w-full ${
-                pathname === item.link ? "text-red-500 font-bold" : ""
+                pathname === item.link ? "font-bold text-red-500" : ""
               }`}
               href={item.link}
               size="lg"
