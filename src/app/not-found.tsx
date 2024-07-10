@@ -6,12 +6,7 @@ export default function NotFound() {
       <div className="flex flex-col items-center gap-5">
         <div className="text-[60px]">404</div>
         <div className="text-[60px]">Not-Found</div>
-        <Button
-          className="w-full text-[20px]"
-          size="lg"
-          as={Link}
-          href="/Lessons"
-        >
+        <Button className="w-full text-[20px]" size="lg" as={Link} href="/">
           Go Back
         </Button>
       </div>
